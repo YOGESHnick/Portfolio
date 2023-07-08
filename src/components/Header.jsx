@@ -16,15 +16,15 @@ function Header()
                                 <a className="nav-link " aria-current="page" href="#">Home</a>
                             </li>
                             <li className="nav-item px-2">
+                              <a className="nav-link" href="./public/skills.html">Skills</a>
+                            </li>
+                            <li className="nav-item px-2">
                               <a class="nav-link" href="#">Projects</a>
                             </li>
                             <li className="nav-item px-2">
                               <a className="nav-link" href="#">Education</a>
                             </li>
-                            <li className="nav-item px-2">
-                              <a className="nav-link" href="#">Skills</a>
-                            </li>
-            
+                            
                         </ul>
                     </div>
                 </div>
