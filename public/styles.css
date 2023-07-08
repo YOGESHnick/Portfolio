@@ -75,14 +75,16 @@ footer a:hover
 }
 
 /* form styling */
+
 .form
 {
-    background-color:#f9f9f9;
+    background-color:#003329;
     text-align: center;
     align-items: center;
     justify-content: center;
     color:#f9f9f9;
     display: flex;
+    /* margin-top:30px; */
 }
 
 form
@@ -91,8 +93,8 @@ form
     display: flex;
     flex-direction: column;
     width:90%;
-    max-width: 600px;
-    padding:2vw 4vw;
+    max-width: 800px;
+    padding:1vw 3vw;
     border-radius: 1rem;
     margin-bottom: 30px;
 }
@@ -101,16 +103,16 @@ form h3{
     color:#f9f9f9;
     font-weight: 800;
     margin-bottom:3rem;
+    margin-top: 3rem;
 }
 
 form input,textarea{
-    border-radius:.5rem ;
-    margin-top:7px;
-}
-
-.form-img
-{
-    max-width: 200px;
+    color: #f9f9f9;
+    background-color: #003329;
+    border: none;
+    border-bottom: 2px solid #f9f9f9;
+    /* border-radius:.5rem ; */
+    margin-top:17px;
 }
 
 form button:hover
@@ -118,4 +120,17 @@ form button:hover
     border:2px solid #f9f9f9;
     background-color:#003329;
     color:#f9f9f9;
+}
+
+
+
+.bottom-container{
+    text-align: center;
+    /* display:inline-flex; */
+    align-items: center;
+    justify-content: center
+}
+
+.bottom-container a{
+    justify-content: center;
 }
