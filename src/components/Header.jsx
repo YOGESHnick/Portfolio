@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 
 function Header()
 {
@@ -13,10 +14,10 @@ function Header()
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav ms-auto px-2 mx-auto">
                             <li className="nav-item px-2">
-                                <a className="nav-link " aria-current="page" href="#">Home</a>
+                                <a className="nav-link " aria-current="page" href="index.html">Home</a>
                             </li>
                             <li className="nav-item px-2">
-                              <a className="nav-link" href="./public/skills.html">Skills</a>
+                              <a className="nav-link" href="skills.html">Skills</a>
                             </li>
                             <li className="nav-item px-2">
                               <a class="nav-link" href="#">Projects</a>
@@ -32,5 +33,6 @@ function Header()
         </div>
     );
 };
+
 
 export default Header;
