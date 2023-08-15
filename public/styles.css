@@ -26,7 +26,7 @@ body
 {
     color:white;
     background-color: #003329;
-    text-decoration: underline overline;
+    /* text-decoration: underline overline; */
     -ms-transform: scale(1.1); /* IE 9 */
     -webkit-transform: scale(1.1); /* Safari 3-8 */
     transform: scale(1.1);
@@ -92,11 +92,12 @@ form
     background-color: #003329;
     display: flex;
     flex-direction: column;
-    width:90%;
+    width:100%;
     max-width: 800px;
     padding:1vw 3vw;
     border-radius: 1rem;
     margin-bottom: 30px;
+    margin-left: max(15px,20px);
 }
 
 form h3{
@@ -111,8 +112,8 @@ form input,textarea{
     background-color: #003329;
     border: none;
     border-bottom: 2px solid #f9f9f9;
-    /* border-radius:.5rem ; */
-    margin-top:17px;
+    border-radius:.25rem ;
+    margin-top:30px;
 }
 
 form button:hover
@@ -122,6 +123,11 @@ form button:hover
     color:#f9f9f9;
 }
 
+.form-img{
+    margin-top:30px;
+    max-width: 60%;
+    max-height: 60%;
+}
 
 
 .bottom-container{

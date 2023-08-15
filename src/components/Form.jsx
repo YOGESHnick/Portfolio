@@ -21,7 +21,7 @@ function Form(){
                         <input type="email" id="email" name="email" placeholder="Your Email" required></input>
                         <input type="text" id="phone" name="phone" placeholder="Phone no." required></input>
                         <textarea id="message" rows="4" name="Type your message" placeholder="Type your message"></textarea>
-                        <button type="submit"> <i class="fa-solid fa-shuttle-space fa-bounce fa-xl"></i>Send</button>
+                        <button type="submit"> <i class="fa-solid fa-paper-plane fa-fade"></i>Send</button>
                     </form>
                 </div>
             </div>
