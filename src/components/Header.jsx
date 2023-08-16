@@ -6,7 +6,7 @@ function Header()
     return(
         <div>
             <section id ="header" >
-                <nav className="navbar navbar-expand mnc py-lg fixed-top">
+                <nav className="navbar navbar-expand-lg mnc py-lg-4 fixed-top">
                     <div className="container-fluid">
                         <a className="navbar-brand" href="#">S H A M L I N</a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
