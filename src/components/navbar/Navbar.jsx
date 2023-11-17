@@ -1,10 +1,11 @@
 import './navbar.scss';
+import Test from '../../Test';
 
 export default function Navbar() {
   return (
     <div className="navbar">
       {/* Navbar */}
-      <div className="wrapper">
+      {/* <div className="wrapper">
         <span>S H A M L I N</span>
         <div className="social">
           <a href="#">
@@ -20,7 +21,9 @@ export default function Navbar() {
             <img src="/dribbble.png" alt="" />
           </a>
         </div>
-      </div>
+      </div> */}
+      <Test />
     </div>
+    
   );
 }
