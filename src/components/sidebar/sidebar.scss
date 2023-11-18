@@ -7,11 +7,11 @@
   color: black;
 
   .bg {
-    // z-index: 999;
+    z-index: 999;
     position: fixed;
     top: 0;
     left: 0;
-    // bottom: 0;
+    bottom: 0;
     width: 400px;
     background: white;
 
@@ -26,13 +26,13 @@
         gap: 20px;
 
         a{
-            font-size: 40px;
+            font-size: 30px;
         }
     }
   }
   
   button {
-    // z-index: 999;
+    z-index: 999;
     position: fixed;
     width: 50px;
     height: 50px;

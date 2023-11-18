@@ -1,9 +1,22 @@
 
 
 export default function Links() {
+
+  const items=[
+    "Home",
+    "Services/Skills",
+    "Portfolio",
+    "Contact",
+    "About",
+  ]
+
   return (
-    <div>
-      Links
+    <div className="links">
+      {items.map((item)=>(
+        <a
+          href={`#${item}`}
+          key={item}>{item}</a>
+      ))}
     </div>
   );
 }
