@@ -1,10 +1,12 @@
 import './navbar.scss';
 import Test from '../../Test';
+import Sidebar from "../sidebar/Sidebar";
 
 export default function Navbar() {
   return (
     <div className="navbar">
       {/* Navbar */}
+      <Sidebar />
       <div className="wrapper">
         <span>S H A M L I N</span>
         <div className="social">
