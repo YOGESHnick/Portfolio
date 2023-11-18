@@ -11,16 +11,16 @@ import Navbar from "./components/navbar/Navbar";
 const App = () => {
   return (
     <div>
-      <section>
+      <section id="Home">
         <Navbar />
       </section>
-      <section >Parallax</section>
+      <section id="Services" >Parallax</section>
       <section>Services</section>
       <section >Parallax</section>
-      <section >Portfolio 1</section>
+      <section id="Portfolio" >Portfolio 1</section>
       <section >Portfolio 2</section>
-      <section >Portfolio 3</section>
-      <section >Contact</section>
+      <section id="Contact">Portfolio 3</section>
+      <section id="About" >Contact</section>
     </div>
   );
 };

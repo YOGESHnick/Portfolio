@@ -4,7 +4,7 @@ export default function Links() {
 
   const items=[
     "Home",
-    "Services/Skills",
+    "Services",
     "Portfolio",
     "Contact",
     "About",
