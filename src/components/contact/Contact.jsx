@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import "./contact.scss";
 import { motion, useInView } from "framer-motion";
-// import emailjs from "@emailjs/browser";
+import emailjs from "@emailjs/browser";
 
 const variants = {
   initial: {
@@ -31,10 +31,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_94y20xo",
-        "template_v10u2oh",
+        "service_avbi6bs",
+        "template_7c465ul",
         formRef.current,
-        "pX_2hasGmGcuvjXIW"
+        "xneq8SVXmTgrSOJXK"
       )
       .then(
         (result) => {
