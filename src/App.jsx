@@ -8,11 +8,13 @@ import Parallax from "./components/parallax/Parallax";
 import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
+import Cursor from "./components/cursor/Cursor";
 
 
 const App = () => {
   return (
     <div>
+      <Cursor />
       <section id="Home">
         <Navbar />
         <Hero />
@@ -34,7 +36,6 @@ const App = () => {
 
       {/* <section id="Portfolio" >sdkcskj</section> */}
       <section id="Contact"><Contact /> </section>
-      <section id="About" >About</section>
     </div>
   );
 };
