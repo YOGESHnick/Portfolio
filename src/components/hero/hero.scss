@@ -62,6 +62,7 @@
         position: absolute;
         top: 0;
         right: 0;
+        z-index: 1;
 
         @include mobile {
             height: 50%;
@@ -83,6 +84,7 @@
         color: #ffffff11;
         width: 100%;
         font-weight: bold;
+        z-index:1;
       }
     
 }

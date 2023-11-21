@@ -32,7 +32,7 @@ const sliderVariants = {
     transition: {
       repeat: Infinity,
       repeatType: "mirror",
-      duration: 15,
+      duration: 7,
     },
   },
 };
@@ -50,9 +50,9 @@ export default function Hero() {
           <motion.h1 variants={textVariants}>Web and App Developer</motion.h1>
           <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants}>
-              See my latest works
+              <a href="#Portfolio">See my latest works</a>
             </motion.button>
-            <motion.button variants={textVariants}>Contact</motion.button>
+            <a href="#Contact"><motion.button variants={textVariants}>Contact</motion.button></a>
           </motion.div>
           <motion.img
             variants={textVariants}
@@ -69,7 +69,7 @@ export default function Hero() {
         AI-Enthusiast
         </motion.div>
       <div className="imageContainer">
-        <img src="/hero.png" alt="" />
+        {/* <img src="/hero.png" alt="" /> */}
       </div>
     </div>
   );
