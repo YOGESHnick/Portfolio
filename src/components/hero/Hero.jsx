@@ -49,9 +49,11 @@ export default function Hero() {
           <h2 variants={textVariants}>SHAMLIN</h2>
           <motion.h1 variants={textVariants}>Web and App Developer</motion.h1>
           <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>
-              <a href="#Portfolio">See my latest works</a>
-            </motion.button>
+            
+              <a href="#Portfolio">
+                <motion.button variants={textVariants}>See my latest works</motion.button>
+              </a>
+            
             <a href="#Contact"><motion.button variants={textVariants}>Contact</motion.button></a>
           </motion.div>
           <motion.img
