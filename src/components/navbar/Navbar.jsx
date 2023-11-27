@@ -10,18 +10,18 @@ export default function Navbar() {
       <div className="wrapper">
         <span>S H A M L I N</span>
         <div className="social">
-          <a href="#">
-            <img src="/facebook.png" alt="" />
+          <a target="_blank" href="https://twitter.com/Nicky_zander">
+            <img src="/X_logo.jpg" alt="" />
           </a>
-          <a href="#">
-            <img src="/instagram.png" alt="" />
+          <a target="_blank" href="https://linkedin.com/in/yogesh-shamlin-shinanth-j-s">
+            <img src="/linkedin.png" alt="" />
           </a>
-          <a href="#">
-            <img src="/youtube.png" alt="" />
+          <a target="_blank" href="https://github.com/YOGESHnick">
+            <img src="/github.png" alt="" />
           </a>
-          <a href="#">
-            <img src="/dribbble.png" alt="" />
-          </a>
+          {/* <a target="_blank" href="#">
+            <img src="/.png" alt="" />
+          </a> */}
         </div>
       </div>
       {/* <Test /> */}
