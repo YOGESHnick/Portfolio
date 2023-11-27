@@ -54,7 +54,7 @@ export default function Services() {
           <h1>
             <motion.b whileHover={{color:"orange"}}>For your</motion.b> Business
           </h1>
-          <button>What I do?</button>
+          <button><a href="#Contact">Go</a></button>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants} >
@@ -62,12 +62,29 @@ export default function Services() {
           className="box"
           whileHover={{ background: "lightgray", color: "black", scale: 1.01 }}
         >
-          <h2>Branding</h2>
+          <h2>Website Develepment </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          Create a compelling online presence with bespoke websites that seamlessly blend cutting-edge technology and user-centric design.
+          </p>
+          <button><a href="#Contact">Go</a></button>
+        </motion.div>
+        <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black", scale: 1.01 }}
+        >
+          <h2>App development</h2>
+          <p>
+          Elevate your business with versatile mobile applications, designed to run seamlessly on both iOS and Android platforms for a unified user experience.
+          </p>
+          <button><a href="#Contact">Go</a></button>
+        </motion.div>
+        <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black", scale: 1.01 }}
+        >
+          <h2>Web Desgin</h2>
+          <p>
+          Transform your vision into a visually stunning reality. I craft modern and captivating website designs that reflect your brand identity and ensure a seamless user experience.
           </p>
           <button>Go</button>
         </motion.div>
@@ -75,40 +92,11 @@ export default function Services() {
           className="box"
           whileHover={{ background: "lightgray", color: "black", scale: 1.01 }}
         >
-          <h2>Branding</h2>
+          <h2>AI/ML solutions</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          Drive innovation with tailored AI/ML solutions that analyze data, automate processes, and provide intelligent insights, unlocking new possibilities for your organization.
           </p>
-          <button>Go</button>
-        </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black", scale: 1.01 }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
-          </p>
-          <button>Go</button>
-        </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black", scale: 1.01 }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
-          </p>
-          <button>Go</button>
+          <button><a href="#Contact">Go</a></button>
         </motion.div>
       </motion.div>
     </motion.div>
