@@ -19,9 +19,9 @@ export default function Navbar() {
           <a target="_blank" href="https://github.com/YOGESHnick">
             <img src="/github.png" alt="" />
           </a>
-          {/* <a target="_blank" href="#">
-            <img src="/.png" alt="" />
-          </a> */}
+          <a target="_blank" href="shamlin_resume.pdf">
+            <img src="/cv.jpeg" alt="" />
+          </a>
         </div>
       </div>
       {/* <Test /> */}

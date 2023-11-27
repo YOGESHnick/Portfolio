@@ -54,7 +54,7 @@ export default function Services() {
           <h1>
             <motion.b whileHover={{color:"orange"}}>For your</motion.b> Business
           </h1>
-          <button><a href="#Contact">Go</a></button>
+          <a href="#Contact" ><button>Go</button></a>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants} >
@@ -66,7 +66,7 @@ export default function Services() {
           <p>
           Create a compelling online presence with bespoke websites that seamlessly blend cutting-edge technology and user-centric design.
           </p>
-          <button><a href="#Contact">Go</a></button>
+          <a href="#Contact" ><button>Go</button></a>
         </motion.div>
         <motion.div
           className="box"
@@ -76,7 +76,7 @@ export default function Services() {
           <p>
           Elevate your business with versatile mobile applications, designed to run seamlessly on both iOS and Android platforms for a unified user experience.
           </p>
-          <button><a href="#Contact">Go</a></button>
+          <a href="#Contact" ><button>Go</button></a>
         </motion.div>
         <motion.div
           className="box"
@@ -86,7 +86,7 @@ export default function Services() {
           <p>
           Transform your vision into a visually stunning reality. I craft modern and captivating website designs that reflect your brand identity and ensure a seamless user experience.
           </p>
-          <button>Go</button>
+          <a href="#Contact" ><button>Go</button></a>
         </motion.div>
         <motion.div
           className="box"
@@ -96,7 +96,7 @@ export default function Services() {
           <p>
           Drive innovation with tailored AI/ML solutions that analyze data, automate processes, and provide intelligent insights, unlocking new possibilities for your organization.
           </p>
-          <button><a href="#Contact">Go</a></button>
+          <a href="#Contact" ><button>Go</button></a>
         </motion.div>
       </motion.div>
     </motion.div>
