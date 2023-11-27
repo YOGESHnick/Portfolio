@@ -69,7 +69,7 @@ export default function Hero() {
         AI-Enthusiast
         </motion.div>
       <div className="imageContainer">
-        {/* <img src="/hero.png" alt="" /> */}
+        <img src="/nigaZander.png" alt="" />
       </div>
     </div>
   );
