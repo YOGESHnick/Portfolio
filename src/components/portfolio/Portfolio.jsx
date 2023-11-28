@@ -14,7 +14,7 @@ const items = [
     id: 2,
     title: "RecYippee",
     img: "./RecYippee.png",
-    desc: "A simpe fullstack website to share food recipes, with authentication and ",
+    desc: "A simpe fullstack website to share food recipes, with authentication and session management and cookies",
     link:"https://github.com/YOGESHnick/RecYippeee"
   },
   {

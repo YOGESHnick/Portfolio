@@ -78,7 +78,7 @@ export default function Services() {
           </p>
           <a href="#Contact" ><button>Go</button></a>
         </motion.div>
-        <motion.div
+        {/* <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black", scale: 1.01 }}
         >
@@ -87,7 +87,7 @@ export default function Services() {
           Transform your vision into a visually stunning reality. I craft modern and captivating website designs that reflect your brand identity and ensure a seamless user experience.
           </p>
           <a href="#Contact" ><button>Go</button></a>
-        </motion.div>
+        </motion.div> */}
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black", scale: 1.01 }}
@@ -98,6 +98,16 @@ export default function Services() {
           </p>
           <a href="#Contact" ><button>Go</button></a>
         </motion.div>
+        {/* <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black", scale: 1.01 }}
+        >
+          <h2>AI/ML solutions</h2>
+          <p>
+          Drive innovation with tailored AI/ML solutions that analyze data, automate processes, and provide intelligent insights, unlocking new possibilities for your organization.
+          </p>
+          <a href="#Contact" ><button>Go</button></a>
+        </motion.div> */}
       </motion.div>
     </motion.div>
   );
